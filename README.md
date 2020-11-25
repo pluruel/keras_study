@@ -9,3 +9,8 @@ I followed this article only for INSTALLING DOCKER
 
 It is perfactly working in 2020/11.
 
+# How to run
+```sh
+sudo docker build -t env .
+./open.sh
+```
