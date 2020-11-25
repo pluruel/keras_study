@@ -1,1 +1,1 @@
-sudo docker run --gpus all -it --rm -v /home/juno/keras_study/workspace:/tf -p 8888:8888 env
+sudo docker run --gpus all -it --rm -v $PWD/workspace:/tf -p 8888:8888 env
